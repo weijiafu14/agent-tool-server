@@ -1,5 +1,7 @@
 # Integration
 
+**English** · [简体中文](INTEGRATION.zh-CN.md)
+
 You integrate this package by editing **one wiring file** and adding **three call
 sites** in your base. The call sites are described as *semantic anchors* — "the
 point in your code where X happens" — and the code you insert is entirely from

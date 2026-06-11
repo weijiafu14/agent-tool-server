@@ -1,5 +1,7 @@
 # Protocol
 
+**English** · [简体中文](PROTOCOL.zh-CN.md)
+
 One bidirectional, line-delimited JSON connection between the host ("Brain") and
 the sandbox ("Hands"). Every message is one JSON object per line (stdio) or one
 text frame (WebSocket). Requests and responses correlate by `id`.

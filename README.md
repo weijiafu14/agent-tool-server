@@ -1,5 +1,7 @@
 # agent-tool-server
 
+**English** · [简体中文](README.zh-CN.md)
+
 **Split-brain sandboxing for Claude Code-compatible agent runtimes.** Keep the
 control loop and all credentials on the host; forward only *tool execution* into
 a disposable sandbox over one persistent connection. When the sandbox crashes,

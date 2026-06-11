@@ -1,5 +1,7 @@
 # Security model
 
+**English** · [简体中文](SECURITY.zh-CN.md)
+
 The threat model is **untrusted workspace contents and untrusted model output**.
 The agent may be steered (by prompt injection in files, or by the workspace's own
 config) into trying to exfiltrate credentials or execute code on the host. The

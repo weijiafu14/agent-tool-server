@@ -1,5 +1,7 @@
 # Docker example
 
+**English** · [简体中文](README.zh-CN.md)
+
 A minimal, **proxy-less** end-to-end run: the host connects directly to a
 tool-server instead of going through an orchestration proxy. This is the smallest
 thing that exercises the forwarding path; production puts a proxy in the middle

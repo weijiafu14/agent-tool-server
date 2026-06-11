@@ -1,5 +1,7 @@
 # Lessons
 
+**English** · [简体中文](LESSONS.zh-CN.md)
+
 Non-obvious failures from running this in production. Each one cost real
 debugging time; they are baked into the code, documented here so you understand
 *why* the code looks the way it does (and don't "simplify" the bug back in).
