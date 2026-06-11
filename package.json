@@ -1,0 +1,30 @@
+{
+  "name": "agent-tool-server",
+  "version": "0.1.0",
+  "description": "Split-brain sandboxing for Claude Code-compatible agent runtimes: keep the control loop and credentials on the host, forward only tool execution into a disposable sandbox over one persistent connection.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "keywords": [
+    "agent",
+    "sandbox",
+    "tool-execution",
+    "isolation",
+    "coding-agent",
+    "remote-tools"
+  ],
+  "exports": {
+    "./host": "./src/remoteClient.ts",
+    "./host/integration": "./src/integration.ts",
+    "./sandbox": "./src/toolServer.ts",
+    "./servable": "./src/servableTools.ts",
+    "./env": "./src/env.ts",
+    "./base": "./src/base.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+# Lockfiles are intentionally not committed: the only deps are dev-only
+# typecheck tools, and a generated lockfile may pin an internal registry mirror.
+bun.lock
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.log
+.DS_Store
+.env
+.env.*
+*.tsbuildinfo
